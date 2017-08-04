@@ -159,7 +159,7 @@ export default class Carousel extends Component {
   }
 
   _setCurrentPage = (currentPage) => {
-    this.setState(() => ({ currentPage });
+    this.setState(() => ({ currentPage }));
     this.setState(() => { this.props.onAnimateNextPage ? this.props.onAnimateNextPage(currentPage) : false });
   }
 
